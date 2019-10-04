@@ -4,14 +4,7 @@ const logger = require('morgan')
 const errorhandler = require('errorhandler')
 const bodyParser = require('body-parser')
 
-var modul = require('./routes/post.js')
-
-var post = require('./routes/post.js');
-var dele = require('./routes/delete.js');
-var get = require('./routes/get.js');
-var put = require('./routes/put.js');
-var comments = require('./routes/comment.js')
-var expres = require('./routes/expres.js')
+var index = require('./routes/index.js')
 
 
 let app = express()

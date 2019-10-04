@@ -1,5 +1,0 @@
-exports.old = function(){
-
-  FUCKING
-
-}
