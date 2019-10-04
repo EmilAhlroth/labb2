@@ -5,8 +5,7 @@ const errorhandler = require('errorhandler')
 const bodyParser = require('body-parser')
 
 var index = require('./routes/index.js')
-
-
+var post = require('./routes/post.js');
 let app = express()
 app.use(bodyParser.json())
 app.use(logger('dev'))
